@@ -1,0 +1,78 @@
+
+* {box-sizing:border-box;}
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:black; font-family:Helvetica;}
+
+
+nav { 
+    padding: 0,5em;
+    margin: 2rem;
+    background-color: rgb(116, 7, 7);
+}
+
+ nav li {
+	line-height: 1.8em;
+    display: inline-block;
+}
+nav a {
+	font-size: 1.4em;
+	line-height: 2.2em;
+	padding: 0.4em 1em;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+#contenedor {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#cajadetexto {
+    width: 100%;
+    max-width: 800px;
+    margin:0 auto;
+}
+
+#cajadetexto2 {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+mark {background-color: rgb(255, 145, 0);}
+
+h1 {color:black;  
+  font-family: "Anton SC", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+    background-color: yellow;
+    text-align:center;
+}
+
+
+p, li, footer, video {color:yellow}
+#centrado {text-align: center;}
+h3 {color:yellow}
+.blanco {color:aliceblue}
+#negro {color:black}
+#textoderecha {text-align: right;}
+section {background-color: white;}
+
+a:link {color:yellow}
+a:visited {color:white}
+a:hover {color:black}
+a:active {color:aqua}
+
+::selection {
+    color:red;
+    background-color: yellow;
+}
+
